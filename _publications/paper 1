@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: https://onlinelibrary.wiley.com/doi/full/10.1002/smr.2503
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2023-10
+date: 2023-10-04
 venue: 'Journal of Software: Evolution and Process'
 citation: 'Trabelsi, I., Abdellatif, M., Abubaker, A., Moha, N., Mosser, S., Ebrahimi‐Kahou, S. and Guéhéneuc, Y.G., 2023. From legacy to microservices: A type‐based approach for microservices identification using machine learning and semantic analysis. Journal of Software: Evolution and Process, 35(10), p.e2503.'
 ---
