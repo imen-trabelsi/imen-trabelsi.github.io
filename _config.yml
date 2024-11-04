@@ -22,11 +22,11 @@ repository               : "imen-trabelsi/imen-trabelsi.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpeg"
-  name             : "Your Sidebar Name"
+  name             : "Imen Trabelsi"
   pronouns         : # example: "she/her"  
   bio              : "I am a PhD student at ETS Montreal, Canada. I am also a member of Ptidej research group at Concordia"
   location         : "Montreal, Canada"
-  employer         : ""
+  employer         : "ETSmtl"
   uri              : # URL
   email            : "imen.trabelsi.1@ens.etsmtl.ca" 
 
