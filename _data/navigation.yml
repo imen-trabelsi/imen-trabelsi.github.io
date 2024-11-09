@@ -8,12 +8,12 @@ main:
   - title: "Publications"
   url: /publications/
 
-  # - title: "Talks"
-  # url: /talks/      
-
   - title: "Services"
   url: /services/  
 
+  # - title: "Talks"
+  # url: /talks/      
+ 
   # - title: "Supervision"
   # url: /supervision/
 
