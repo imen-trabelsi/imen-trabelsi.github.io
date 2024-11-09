@@ -226,10 +226,10 @@ collections:
     permalink: /:collection/:path/
   reviews:
     output: true
-    permalink: /reviews/:title/
+    permalink: /:collection/:title/
   organization:
     output: true
-    permalink: /organization/:title/
+    permalink: /:collection/:title/
 
 
 # These settings control how pages and collections are included in the site
@@ -265,6 +265,22 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+ - scope:
+      path: ""
+      type: reviews
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+   - scope:
+      path: ""
+      type: organization
     values:
       layout: single
       author_profile: true
