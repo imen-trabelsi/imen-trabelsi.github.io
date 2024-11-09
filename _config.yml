@@ -271,21 +271,21 @@ defaults:
       share: true
       comments: true
   - scope:
-        path: ""
-        type: reviews
-      values:
-        layout: single
-        author_profile: true
-        share: true
-        comments: true
+      path: ""
+      type: reviews
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   - scope:
-    path: ""
-    type: organization
-  values:
-    layout: single
-    author_profile: true
-    share: true
-    comments: true
+      path: ""
+      type: organization
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _portfolio
   - scope:
       path: ""
