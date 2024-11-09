@@ -226,10 +226,10 @@ collections:
     permalink: /:collection/:path/
   reviews:
     output: true
-    permalink: /:collection/:title/
+    permalink: /reviews/:path/
   organization:
     output: true
-    permalink: /:collection/:title/
+    permalink: /organization/:path/
 
 
 # These settings control how pages and collections are included in the site
