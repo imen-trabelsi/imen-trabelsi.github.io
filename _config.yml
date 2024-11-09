@@ -224,6 +224,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  reviews:
+    output: true
+    permalink: /reviews/:title/
+  organization:
+    output: true
+    permalink: /organization/:title/
 
 
 # These settings control how pages and collections are included in the site
