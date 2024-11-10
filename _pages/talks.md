@@ -9,6 +9,6 @@ permalink: /talks/
 {% for talk in sorted_talks %}
 - ### {{ talk.title }}
 **Venue:** {{ talk.venue }}  
-**Date:** {{ talk.date | date: "%Y-%m"}}  
+**Date:** {{ talk.date | date: "%Y-%m-%d"}}  
  {{ talk.discription}}  
 {% endfor %}
