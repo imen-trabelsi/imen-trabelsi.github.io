@@ -7,14 +7,15 @@
 main:
   - title: "Publications"
     url: /publications/
+  - title: "Supervision"
+    url: /supervision/
   - title: "Services"
     url: /services/
 
   # - title: "Talks"
   # url: /talks/      
  
-  # - title: "Supervision"
-  # url: /supervision/
+
 
   # - title: "Teaching"
   # url: /teaching/  

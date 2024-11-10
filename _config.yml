@@ -230,6 +230,9 @@ collections:
   organization:
     output: true
     permalink: /organization/:path/
+  supervision:
+    output: true
+    permalink: /supervision/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -273,6 +276,14 @@ defaults:
   - scope:
       path: ""
       type: reviews
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: supervision
     values:
       layout: single
       author_profile: true
