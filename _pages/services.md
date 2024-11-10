@@ -13,7 +13,7 @@ permalink: /services/
 
 {% endfor %}
 
-## Volunteering
+## Organization
 {% assign sorted_organization= site.organization | sort: "date" | reverse %}
 {% for organization in sorted_organization %}
 ### {{ organization.title }}
