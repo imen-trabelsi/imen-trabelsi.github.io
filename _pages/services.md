@@ -8,7 +8,7 @@ permalink: /services/
 {% assign sorted_reviews = site.reviews | sort: "date" | reverse %}
 {% for review in sorted_reviews %}
 ### {{ review.title }}
-**Venue:** {{ organization.venue }}  
+**Venue:** {{ review.venue }}  
 **Date:** {{ review.date | date: "%Y-%m"}}  
 
 {% endfor %}
@@ -19,5 +19,5 @@ permalink: /services/
 ### {{ organization.title }}
 **Event:** {{ organization.event }}  
 **Date:** {{ organization.date | date: "%Y-%m-%d"}}  
-**Description:** {{ organization.description }}  
+<!-- **Description:** {{ organization.description }}   -->
 {% endfor %}
