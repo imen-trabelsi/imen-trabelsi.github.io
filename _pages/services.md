@@ -5,19 +5,19 @@ permalink: /services/
 ---
 
 ## Reviews
-{% for review in site.reviews %}
+{% assign sorted_reviews = site.reviews | sort: "date" | reverse %}
+{% for review in sorted_reviews %}
 ### {{ review.title }}
-**Date:** {{ review.date }}  
-**Description:** {{ review.description }}  
+**Venue:** {{ organization.venue }}  
+**Date:** {{ review.date | date: "%Y-%m"}}  
 
-{{ review.content }}
 {% endfor %}
 
 ## Volunteering
-{% for volunteering in site.volunteering %}
-### {{ volunteering.title }}
-**Date:** {{ volunteering.date }}  
-**Description:** {{ volunteering.description }}  
-
-{{ volunteering.content }}
+{% assign sorted_organization= site.organization | sort: "date" | reverse %}
+{% for organization in sorted_organization %}
+### {{ organization.title }}
+**Event:** {{ organization.event }}  
+**Date:** {{ organization.date | date: "%Y-%m-%d"}}  
+**Description:** {{ organization.description }}  
 {% endfor %}

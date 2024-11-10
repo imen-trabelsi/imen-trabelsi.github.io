@@ -1,5 +1,6 @@
 ---
-title: "Student Volunteer in MODLES'22"
+title: "Student Volunteer"
 date: 2022-10-23
-description: "Participated in the differents tasks of organization"
+Event: "MODLES'22, Montréal, Canada"
+description: ""
 ---
