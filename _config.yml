@@ -21,7 +21,7 @@ repository               : "imen-trabelsi/imen-trabelsi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile1.png"
+  avatar           : "profile.jpeg"
   name             : "Imen Trabelsi"
   pronouns         : # example: "she/her"  
   bio              : "I am a PhD student at ETS Montreal, Canada. I am also a member of Ptidej research group at Concordia"
